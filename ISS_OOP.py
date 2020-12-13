@@ -3,9 +3,9 @@ import urllib.request
 import datetime
 import json
 
-# Projects main idea was to practice how to implement and use object oriented programming style.
-# Code returns astronauts currently on board of International space station, crafts location and next five
-# pass times over Turku, Finland.
+''' Projects main idea was to practice how to implement and use object oriented programming style.
+Code returns astronauts currently on board of International space station, crafts location and next five
+pass times over Turku, Finland.'''
 
 class Craft:
 
