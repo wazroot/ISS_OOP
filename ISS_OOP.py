@@ -25,7 +25,7 @@ class Craft:
 
         return f'Astronauts currently on board of ISS: {astronauts}'
 
-    # Get Iss current location
+    # Gets Iss current location
     def get_iss_location(self):
 
         r_loc = urllib.request.urlopen('http://api.open-notify.org/iss-now.json')
@@ -34,7 +34,7 @@ class Craft:
 
         return f'ISS current location is: {location}'
 
-    # Get next 5 pass times over Turku
+    # Gets next 5 pass times over Turku
     def get_passes_over_Turku(self):
 
         r_pass = urllib.request.urlopen(f'http://api.open-notify.org/iss-pass.json?lat=61&lon=22')
